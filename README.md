@@ -12,6 +12,6 @@
 
 ### FREE HD PHOTOS
 
-**- HD UI FACES:**https://www.uifaces.co/
-**- HD Photos:**https://unsplash.com/
-**- Beautiful backgrounds and vectors:**https://www.vecteezy.com/
+- HD UI FACES: https://www.uifaces.co/
+- HD Photos: https://unsplash.com/
+- Beautiful backgrounds and vectors: https://www.vecteezy.com/
