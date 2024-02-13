@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+body {
+  padding: 40px 30px 0;
+  background-color: #cfbeb9;
+}
+
+/* Add CSS here */
+
+/* COLORS
+
+bg: #CFBEB9
+card: #EEE9E2
+white: #fff
+black: #1E1411 
+
+*/
+
+.card {
+  position: relative;
+  width: 280px;
+  height: 286px;
+  background-color: #eee9e2;
+  color: #1e1411;
+  padding: 35px 40px;
+  border-radius: 20px;
+  box-shadow: 0px 15px 15px rgba(181, 137, 94, 0.3);
+  margin: 100px auto;
+}
+
+.card::before {
+  content: "";
+  display: block;
+  width: inherit;
+  height: inherit;
+  background-color: #c5aea7;
+  border-radius: inherit;
+  position: absolute;
+  left: -30px;
+  top: -30px;
+  z-index: -1;
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.card-top > p {
+  font-size: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.dots {
+  display: flex;
+  gap: 3px;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 3px;
+}
+
+.dots:hover {
+  transform: translate(1px, -1px) scale(1.3);
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  background-color: #1e1411;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.card-title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.card-description {
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  margin-bottom: 15px;
+}
+
+.card-extras {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.members {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.extra-numbers {
+  font-weight: 600;
+}
+
+.extra-info {
+  font-size: 8px;
+}
+
+.online {
+  width: 100%;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.empty {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.post {
+  color: #fff;
+  background-color: #1e1411;
+  transition: all 0.2s;
+}
+
+.post:hover {
+  transform: translate(1px, -2px);
+  box-shadow: -3px 3px 10px rgba(30, 20, 17, 0.4);
+}
+
+.date {
+  font-size: 8px;
+}

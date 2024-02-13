@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+body {
+  padding: 40px 30px 0;
+  background-color: #f9f4fa;
+  font-size: 10px;
+  color: #555;
+  letter-spacing: 0.4px;
+}
+
+/* Add CSS here */
+/* COLORS */
+
+/* 
+color-main: #A10161
+color-second: #F9F4FA
+color-text: #777
+*/
+
+.container {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 100px auto 0;
+  text-align: center;
+  padding: 30px 44px;
+}
+
+.photo {
+  width: 80px;
+  height: 80px;
+  border: 6px solid #f9f4fa;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.join {
+  font-size: 10px;
+}
+
+.channel {
+  font-size: 16px;
+  font-weight: 700;
+  color: 111;
+  margin-bottom: 5px;
+}
+
+p.users {
+  background-color: #f9f4fa;
+  padding: 8px 10px;
+  border-radius: 3px;
+  display: inline-block;
+  font-size: 8px;
+}
+
+label[for="username"] {
+  display: block;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+input[id="name"] {
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+input[id="name"]::placeholder {
+  color: #333;
+}
+
+input[id="terms"] {
+  width: 30px;
+  height: 30px;
+}
+
+label[for="terms"] {
+  margin-top: 10px;
+  line-height: 1.4;
+  align-self: flex-end;
+}
+
+a {
+  color: #a10161;
+  text-decoration: underline;
+}
+
+.terms {
+  display: flex;
+  text-align: left;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.mb-small {
+  margin-bottom: 10px;
+}
+
+.mb-medium {
+  margin-bottom: 15px;
+}
+
+.mb-large {
+  margin-bottom: 24px;
+}
+
+.btn-continue {
+  background-color: #a10161;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+  text-decoration: none;
+  box-shadow: 0px 3px 0 rgba(161, 1, 97, 0.7);
+  transition: all 0.1s;
+}
+
+.btn-continue:hover {
+  box-shadow: 0px 5px 0 rgba(161, 1, 97, 0.7);
+  transform: scale(1.01) translate(1px, -3px);
+}
