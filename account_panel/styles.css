@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+body {
+  padding: 40px 30px 0;
+  background-color: #052C4B;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* COLORS */
+/* 
+MAIN: #103C61;
+MAIN-LIGHT: #3AA2ED;
+main-Dark: #052C4B; 
+*/
+
+.container {
+  width: 340px;
+  /* border: 1px solid red; */
+  background-color: #103C61;
+  color: #fff;
+  padding: 25px;
+  box-shadow: -10px 10px 20px rgba(16, 60, 97, 0.1);
+}
+
+.profiles {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.profile-photos {
+  display: flex;
+  gap: 15px;
+}
+
+.profile-photos img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.1);
+}
+
+.light-border {
+  border: 3px solid #3AA2ED;
+}
+
+.mb-small {
+  margin-bottom: 24px;
+}
+
+.mb-medium {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.add-account {
+  background-color: #3AA2ED;
+  padding: 10px 12px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.acc-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+hr {
+  border: 1px solid #0e3657;
+  width: 90%;
+}
+
+i {
+  font-size: 32px;
+  color: #052C4B;
+  cursor: pointer;
+}
